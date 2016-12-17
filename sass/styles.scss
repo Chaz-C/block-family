@@ -82,9 +82,12 @@ h2{
 
   .block_family li{
     background-color: $bright-color;
-    margin-bottom: 20px;
+    margin: 0.5%;
     padding: 20px;
     color: $light-color;
+    display: inline-block;
+    width: 48%;
+    box-sizing: border-box;
   }
 }
 
@@ -118,8 +121,11 @@ h2{
 
   .block_family li{
     background-color: $light-color;
-    margin-bottom: 20px;
+    margin: 0.5%;
     padding: 20px;
     color: $dark-color;
+    display: inline-block;
+    width: 32%;
+    box-sizing: border-box;
   }
 }

@@ -8,9 +8,6 @@ $light-color: orange;
 $bright-color: white;
 $g-padding: 20px;
 
-// Media Query Ranges
-
-
 // Mixins
 
 @mixin block_font($font-size, $font-color) {
@@ -39,7 +36,6 @@ h2{
   @include block_font(2.2rem, $bright-color);
 }
 
-
 .block_family{
   max-width:350px;
   margin:auto;
@@ -52,17 +48,11 @@ h2{
   color: $bright-color;
 }
 
-
-
 @media screen and (min-width: 600px) and (max-width: 899px) {
   body{
     background-color: $light-color;
     text-align: center;
     color: $light-color;
-  }
-
-  h1, h2, h3, h4{
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
   }
 
   h1{
@@ -95,17 +85,11 @@ h2{
   }
 }
 
-
-
 @media screen and (min-width: 900px) {
   body{
     background-color: $dark-color;
     text-align: center;
     color: $light-color;
-  }
-
-  h1, h2, h3, h4{
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
   }
 
   h1{
@@ -116,7 +100,6 @@ h2{
   h2{
     @include block_font(2.2rem, $dark-color);
   }
-
 
   .block_family{
     max-width:800px;

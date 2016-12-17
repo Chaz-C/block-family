@@ -89,6 +89,10 @@ h2{
     width: 48%;
     box-sizing: border-box;
   }
+
+  .block_family li:nth-child(odd) {
+    background-color: $dark-color;
+  }
 }
 
 
@@ -127,5 +131,8 @@ h2{
     display: inline-block;
     width: 32%;
     box-sizing: border-box;
+  }
+  .block_family li:nth-child(3n+2) {
+    background-color: $bright-color;
   }
 }
